@@ -7,36 +7,16 @@
   
 </head>
 <style>
-     /* Footer Styles */
-   footer {
-      background-color: #1c1c1c;
-      color: white;
-      text-align: center;
-      padding: 20px 0;
-      margin-top: 119px;\
-      io
-      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-    }
 
-    footer .social-icons {
-      margin: 10px 0;
-    }
+   
+     
+   
 
-    footer .social-icons a {
-      color: #f5c243;
-      margin: 0 10px;
-      text-decoration: none;
-      font-size: 1.2rem;
-      transition: color 0.3s;
-    }
+ 
 
-    footer .social-icons a:hover {
-      color: #e0a82e;
-    }
 
-    footer p {
-      font-size: 0.9rem;
-    }
+</style>
+
 </style>
 <body>
    <div class="main">
@@ -49,10 +29,10 @@
 <div class="menu">
     <ul>
         <li><a href="index.html">HOME</a></li>
-        <li><a href="pages/about.html">ABOUT</a></li>
+        <li><a href="#about-h2">ABOUT</a></li>
         <li><a href="pages/skills.html">SKILLS</a></li>
-        <li><a href="pages/project.html">PROJECTS</a></li>
-        <li><a href="conctac.html">CONTACT</a></li>
+        <li><a href="#proh1">PROJECTS</a></li>
+        <li><a href="#cont-h2">CONTACT</a></li>
     </ul>
 </div>
 <div class="search">
@@ -77,6 +57,85 @@
               font-size: 2rem; background-color:orange;border-radius: 20px;text-decoration: none;">DOWNLOAD RESUME</a>
           
     </div>
+    <!-------------projects-------------------------------------------------------------------->
+               <h1 id="proh1"><label for="proh1">Projects</label></h1>
+            <div class="projects" id="pro">
+                <!-- Project 1: Calculator -->
+                <div class="project-box" id="calc">
+                    <h3>Calculator</h3>
+                    <p>A fully functional calculator built with HTML, CSS, and JavaScript to perform basic arithmetic operations.</p>
+                    <a href="cal.html">View Project</a>
+                </div>
+
+                <!-- Project 2: E-commerce System -->
+                <div class="project-box" id="ecommerce">
+                    <h3>E-commerce System</h3>
+                    <p>An interactive e-commerce platform that allows browsing, cart management, and checkout functionalities.</p>
+                    <a href="Ecomerce/index.html">View Project</a>
+                </div>
+                <div class="project-box" id="shoping">
+                    <h3>Shoping System</h3>
+                    <p>An interactive shoping website that allows browsing, cart management, and checkout functionalities.</p>
+                    <a href="shoping/index.html">View Project</a>
+                </div>
+                <div class="project-box" id="agency">
+                    <h3>Web-Agency</h3>
+                    <p>An interactive Agency platform that allows browsing, cart management, and checkout functionalities.</p>
+                    <a href="website/index.html">View Project</a>
+                </div>
+            </div>
+
+           
+            <!--------------------------------------------ABOUT US----------------------------------------->
+            <H2 id="about-h2">ABOUT US</H2>
+            <div class="container">
+              <section>
+                  <h2>Who We Are</h2>
+                  <p>
+                      Welcome to our website! We are a team of dedicated professionals passionate about delivering high-quality services to our customers. 
+                  </p>
+                  <p>
+                      Our mission is to provide exceptional value and create lasting relationships with our clients. We strive for excellence in everything we do.
+                  </p>
+              </section>
+              <section>
+                  <h2>Our Vision</h2>
+                  <p>
+                      To be a leader in our industry by offering innovative solutions that meet the evolving needs of our community and stakeholders.
+                  </p>
+              </section>
+              <section>
+                  <h2>Contact Us</h2>
+                  <p>
+                      Email: najacade23456@gmail.com<br>
+                      Phone: +252619829928<br>
+                      Address: km30, mogadisho, somalia
+                  </p>
+              </section>
+          </div>
+           <!--------------------------------------------------contact form------------------------------------>
+           <h2 id="cont-h2">CONTACT US</h2>
+           <div class="container">
+             <!-- Contact Info Section -->
+             <div class="contact-info">
+               <p><strong>Address:</strong> Km30, Alikamiin, Mogadishu, Somalia</p>
+               <p><strong>Email:</strong> <a href="mailto:najacade23456@gmail.com">najacade23456@gmail.com</a></p>
+               <p><strong>Phone:</strong> <a href="tel:+254619829928">619829928</a></p>
+             </div>
+         
+             <!-- Contact Form Section -->
+             <div class="contact-form">
+               <h1>Let's <span class="highlight">talk</span></h1>
+               <p>Fariin noogu dhaaf oo waxaan kula soo xiriiri doonnaa sida ugu dhakhsaha badan!</p>
+               <form id="messageForm">
+                 <input type="text" id="name" placeholder="Enter your name" required>
+                 <input type="email" id="email" placeholder="Your Email" required>
+                 <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                 <button type="submit">SEND MESSAGE</button>
+               </form>
+             </div>
+           </div>
+            <!-------------------------footer----------------------------------------------------------------->
     <footer>
         <p>&copy; 2024 MAaJiD. All Rights Reserved.</p>
         <div class="social-icons">
